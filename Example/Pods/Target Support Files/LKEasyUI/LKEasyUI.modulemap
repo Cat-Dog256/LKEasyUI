@@ -1,0 +1,6 @@
+framework module LKEasyUI {
+  umbrella header "LKEasyUI-umbrella.h"
+
+  export *
+  module * { export * }
+}

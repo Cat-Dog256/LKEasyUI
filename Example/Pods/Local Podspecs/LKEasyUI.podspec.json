@@ -1,0 +1,30 @@
+{
+  "name": "LKEasyUI",
+  "version": "0.1.0",
+  "summary": "A short description of LKEasyUI.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/lice_home@163.com/LKEasyUI",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "lice_home@163.com": "lice_home@163.com"
+  },
+  "source": {
+    "git": "https://github.com/lice_home@163.com/LKEasyUI.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "LKEasyUI/Classes/**/*",
+  "dependencies": {
+    "MJRefresh": [
+
+    ],
+    "DZNEmptyDataSet": [
+
+    ]
+  }
+}

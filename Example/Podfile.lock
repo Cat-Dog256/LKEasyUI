@@ -1,0 +1,27 @@
+PODS:
+  - DZNEmptyDataSet (1.8.1)
+  - LKEasyUI (0.1.0):
+    - DZNEmptyDataSet
+    - MJRefresh
+  - MJRefresh (3.5.0)
+
+DEPENDENCIES:
+  - LKEasyUI (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - DZNEmptyDataSet
+    - MJRefresh
+
+EXTERNAL SOURCES:
+  LKEasyUI:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  DZNEmptyDataSet: 9525833b9e68ac21c30253e1d3d7076cc828eaa7
+  LKEasyUI: e632034d6552536b523a07788f46f8902a13c880
+  MJRefresh: 6afc955813966afb08305477dd7a0d9ad5e79a16
+
+PODFILE CHECKSUM: 5297bc455ee073e46911193694831ba3da3a36fd
+
+COCOAPODS: 1.9.1
