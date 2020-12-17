@@ -1,9 +1,9 @@
 {
   "name": "LKEasyUI",
   "version": "0.1.0",
-  "summary": "A short description of LKEasyUI.",
+  "summary": "常用UI控件的封装与整理 LKEasyUI.",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/lice_home@163.com/LKEasyUI",
+  "homepage": "https://github.com/Cat-Dog256/LKEasyUI",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,7 +12,7 @@
     "lice_home@163.com": "lice_home@163.com"
   },
   "source": {
-    "git": "https://github.com/lice_home@163.com/LKEasyUI.git",
+    "git": "https://github.com/Cat-Dog256/LKEasyUI.git",
     "tag": "0.1.0"
   },
   "platforms": {

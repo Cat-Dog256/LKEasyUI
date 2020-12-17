@@ -47,6 +47,26 @@
                ReferencedContainer = "container:LKEasyUI.xcodeproj">
             </BuildableReference>
          </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "0433E5F22588AC64009B531E"
+               BuildableName = "LKEasyUI_ExampleTests.xctest"
+               BlueprintName = "LKEasyUI_ExampleTests"
+               ReferencedContainer = "container:LKEasyUI.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "0433E6022588AC71009B531E"
+               BuildableName = "LKEasyUI_ExampleUITests.xctest"
+               BlueprintName = "LKEasyUI_ExampleUITests"
+               ReferencedContainer = "container:LKEasyUI.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
    </TestAction>
    <LaunchAction

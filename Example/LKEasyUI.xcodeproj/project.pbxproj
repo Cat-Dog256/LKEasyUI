@@ -7,7 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5CB7FBA0204E798ECE517E27 /* Pods_LKEasyUI_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9A522C48AF4863FCC1062A3 /* Pods_LKEasyUI_Tests.framework */; };
+		0433E5C2258759DE009B531E /* LoginView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0433E5C1258759DE009B531E /* LoginView.m */; };
+		0433E5D125886319009B531E /* LoginParamVerify.m in Sources */ = {isa = PBXBuildFile; fileRef = 0433E5D025886319009B531E /* LoginParamVerify.m */; };
+		0433E5F62588AC64009B531E /* LKEasyUI_ExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0433E5F52588AC64009B531E /* LKEasyUI_ExampleTests.m */; };
+		0433E6062588AC71009B531E /* LKEasyUI_ExampleUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0433E6052588AC71009B531E /* LKEasyUI_ExampleUITests.m */; };
+		0433E63025899827009B531E /* LeeLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0433E62F25899827009B531E /* LeeLoginViewController.m */; };
+		0433E636258998D7009B531E /* EasyTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0433E635258998D7009B531E /* EasyTabBarController.m */; };
+		0433E64725899AA7009B531E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
+		0433E64B25899AD0009B531E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
+		045CD0B32589A70900410DD0 /* LoginNetworkService.m in Sources */ = {isa = PBXBuildFile; fileRef = 045CD0B22589A70900410DD0 /* LoginNetworkService.m */; };
+		045CD0B92589AECF00410DD0 /* LoginViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 045CD0B82589AECF00410DD0 /* LoginViewModel.m */; };
+		5276326BD6DF27FB4DAE36D2 /* Pods_LKEasyUI_ExampleTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F857A400FCDB65CDB9AABB7 /* Pods_LKEasyUI_ExampleTests.framework */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -16,27 +26,46 @@
 		6003F59E195388D20070C39A /* EASYAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F59D195388D20070C39A /* EASYAppDelegate.m */; };
 		6003F5A7195388D20070C39A /* EASYViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5A6195388D20070C39A /* EASYViewController.m */; };
 		6003F5A9195388D20070C39A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5A8195388D20070C39A /* Images.xcassets */; };
-		6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F5AF195388D20070C39A /* XCTest.framework */; };
-		6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
-		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
-		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
-		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
-		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
+		652221CD099BB15AC0C22DC6 /* Pods_LKEasyUI_ExampleUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9E64F0E6371808E3EF579C4 /* Pods_LKEasyUI_ExampleUITests.framework */; };
 		82BAE6D7BF73894B1A24E6EF /* Pods_LKEasyUI_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 61329C6BA0180A2216EF74F0 /* Pods_LKEasyUI_Example.framework */; };
-		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		6003F5B3195388D20070C39A /* PBXContainerItemProxy */ = {
+		0433E5F82588AC64009B531E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 6003F582195388D10070C39A /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 6003F589195388D20070C39A;
-			remoteInfo = LKEasyUI;
+			remoteInfo = LKEasyUI_Example;
+		};
+		0433E6082588AC71009B531E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6003F582195388D10070C39A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6003F589195388D20070C39A;
+			remoteInfo = LKEasyUI_Example;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0433E5C0258759DE009B531E /* LoginView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginView.h; sourceTree = "<group>"; };
+		0433E5C1258759DE009B531E /* LoginView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginView.m; sourceTree = "<group>"; };
+		0433E5CF25886319009B531E /* LoginParamVerify.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginParamVerify.h; sourceTree = "<group>"; };
+		0433E5D025886319009B531E /* LoginParamVerify.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginParamVerify.m; sourceTree = "<group>"; };
+		0433E5F32588AC64009B531E /* LKEasyUI_ExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LKEasyUI_ExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0433E5F52588AC64009B531E /* LKEasyUI_ExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LKEasyUI_ExampleTests.m; sourceTree = "<group>"; };
+		0433E5F72588AC64009B531E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0433E6032588AC71009B531E /* LKEasyUI_ExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LKEasyUI_ExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0433E6052588AC71009B531E /* LKEasyUI_ExampleUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LKEasyUI_ExampleUITests.m; sourceTree = "<group>"; };
+		0433E6072588AC71009B531E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0433E62E25899827009B531E /* LeeLoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LeeLoginViewController.h; sourceTree = "<group>"; };
+		0433E62F25899827009B531E /* LeeLoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LeeLoginViewController.m; sourceTree = "<group>"; };
+		0433E634258998D7009B531E /* EasyTabBarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EasyTabBarController.h; sourceTree = "<group>"; };
+		0433E635258998D7009B531E /* EasyTabBarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EasyTabBarController.m; sourceTree = "<group>"; };
+		045CD0B12589A70900410DD0 /* LoginNetworkService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginNetworkService.h; sourceTree = "<group>"; };
+		045CD0B22589A70900410DD0 /* LoginNetworkService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginNetworkService.m; sourceTree = "<group>"; };
+		045CD0B72589AECF00410DD0 /* LoginViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginViewModel.h; sourceTree = "<group>"; };
+		045CD0B82589AECF00410DD0 /* LoginViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginViewModel.m; sourceTree = "<group>"; };
 		1DAD1964B498E6CF15876EAC /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		2297E8F3945C8559963F00C1 /* Pods-LKEasyUI_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LKEasyUI_Tests.debug.xcconfig"; path = "Target Support Files/Pods-LKEasyUI_Tests/Pods-LKEasyUI_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* LKEasyUI_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LKEasyUI_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -52,24 +81,41 @@
 		6003F5A5195388D20070C39A /* EASYViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EASYViewController.h; sourceTree = "<group>"; };
 		6003F5A6195388D20070C39A /* EASYViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EASYViewController.m; sourceTree = "<group>"; };
 		6003F5A8195388D20070C39A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		6003F5AE195388D20070C39A /* LKEasyUI_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LKEasyUI_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F5AF195388D20070C39A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		6003F5B7195388D20070C39A /* Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Tests-Info.plist"; sourceTree = "<group>"; };
-		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
-		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		61329C6BA0180A2216EF74F0 /* Pods_LKEasyUI_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LKEasyUI_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		81F25CBE47A0574CAC3E07CC /* Pods-LKEasyUI_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LKEasyUI_Example.debug.xcconfig"; path = "Target Support Files/Pods-LKEasyUI_Example/Pods-LKEasyUI_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		8239D765F5053CA1F6C01814 /* Pods-LKEasyUI_ExampleUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LKEasyUI_ExampleUITests.release.xcconfig"; path = "Target Support Files/Pods-LKEasyUI_ExampleUITests/Pods-LKEasyUI_ExampleUITests.release.xcconfig"; sourceTree = "<group>"; };
 		827BEB29A0F83B8282ACE503 /* Pods-LKEasyUI_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LKEasyUI_Example.release.xcconfig"; path = "Target Support Files/Pods-LKEasyUI_Example/Pods-LKEasyUI_Example.release.xcconfig"; sourceTree = "<group>"; };
+		8442C36D9CE335E50C7BACF8 /* Pods-LKEasyUI_ExampleUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LKEasyUI_ExampleUITests.debug.xcconfig"; path = "Target Support Files/Pods-LKEasyUI_ExampleUITests/Pods-LKEasyUI_ExampleUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8F857A400FCDB65CDB9AABB7 /* Pods_LKEasyUI_ExampleTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LKEasyUI_ExampleTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A32828171C3E1DC444DB19B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		9BB3ABCABCD67EFCE80BBE6A /* LKEasyUI.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LKEasyUI.podspec; path = ../LKEasyUI.podspec; sourceTree = "<group>"; };
+		B9E64F0E6371808E3EF579C4 /* Pods_LKEasyUI_ExampleUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LKEasyUI_ExampleUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2F0B86BA042AF49829BE1FA /* Pods-LKEasyUI_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LKEasyUI_Tests.release.xcconfig"; path = "Target Support Files/Pods-LKEasyUI_Tests/Pods-LKEasyUI_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		D9A522C48AF4863FCC1062A3 /* Pods_LKEasyUI_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LKEasyUI_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB84FD681647662FC9AF7F40 /* Pods-LKEasyUI_ExampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LKEasyUI_ExampleTests.release.xcconfig"; path = "Target Support Files/Pods-LKEasyUI_ExampleTests/Pods-LKEasyUI_ExampleTests.release.xcconfig"; sourceTree = "<group>"; };
+		F98170BCB9F71F60E4639080 /* Pods-LKEasyUI_ExampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LKEasyUI_ExampleTests.debug.xcconfig"; path = "Target Support Files/Pods-LKEasyUI_ExampleTests/Pods-LKEasyUI_ExampleTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		0433E5F02588AC64009B531E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5276326BD6DF27FB4DAE36D2 /* Pods_LKEasyUI_ExampleTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0433E6002588AC71009B531E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				652221CD099BB15AC0C22DC6 /* Pods_LKEasyUI_ExampleUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		6003F587195388D20070C39A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -81,20 +127,27 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6003F5AB195388D20070C39A /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
-				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
-				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
-				5CB7FBA0204E798ECE517E27 /* Pods_LKEasyUI_Tests.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0433E5F42588AC64009B531E /* LKEasyUI_ExampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				0433E5F52588AC64009B531E /* LKEasyUI_ExampleTests.m */,
+				0433E5F72588AC64009B531E /* Info.plist */,
+			);
+			path = LKEasyUI_ExampleTests;
+			sourceTree = "<group>";
+		};
+		0433E6042588AC71009B531E /* LKEasyUI_ExampleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0433E6052588AC71009B531E /* LKEasyUI_ExampleUITests.m */,
+				0433E6072588AC71009B531E /* Info.plist */,
+			);
+			path = LKEasyUI_ExampleUITests;
+			sourceTree = "<group>";
+		};
 		3AC1F0ABD29426AFAACC4F6D /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -102,6 +155,10 @@
 				827BEB29A0F83B8282ACE503 /* Pods-LKEasyUI_Example.release.xcconfig */,
 				2297E8F3945C8559963F00C1 /* Pods-LKEasyUI_Tests.debug.xcconfig */,
 				D2F0B86BA042AF49829BE1FA /* Pods-LKEasyUI_Tests.release.xcconfig */,
+				F98170BCB9F71F60E4639080 /* Pods-LKEasyUI_ExampleTests.debug.xcconfig */,
+				DB84FD681647662FC9AF7F40 /* Pods-LKEasyUI_ExampleTests.release.xcconfig */,
+				8442C36D9CE335E50C7BACF8 /* Pods-LKEasyUI_ExampleUITests.debug.xcconfig */,
+				8239D765F5053CA1F6C01814 /* Pods-LKEasyUI_ExampleUITests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -111,7 +168,8 @@
 			children = (
 				60FF7A9C1954A5C5007DD14C /* Podspec Metadata */,
 				6003F593195388D20070C39A /* Example for LKEasyUI */,
-				6003F5B5195388D20070C39A /* Tests */,
+				0433E5F42588AC64009B531E /* LKEasyUI_ExampleTests */,
+				0433E6042588AC71009B531E /* LKEasyUI_ExampleUITests */,
 				6003F58C195388D20070C39A /* Frameworks */,
 				6003F58B195388D20070C39A /* Products */,
 				3AC1F0ABD29426AFAACC4F6D /* Pods */,
@@ -122,7 +180,8 @@
 			isa = PBXGroup;
 			children = (
 				6003F58A195388D20070C39A /* LKEasyUI_Example.app */,
-				6003F5AE195388D20070C39A /* LKEasyUI_Tests.xctest */,
+				0433E5F32588AC64009B531E /* LKEasyUI_ExampleTests.xctest */,
+				0433E6032588AC71009B531E /* LKEasyUI_ExampleUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -136,6 +195,8 @@
 				6003F5AF195388D20070C39A /* XCTest.framework */,
 				61329C6BA0180A2216EF74F0 /* Pods_LKEasyUI_Example.framework */,
 				D9A522C48AF4863FCC1062A3 /* Pods_LKEasyUI_Tests.framework */,
+				8F857A400FCDB65CDB9AABB7 /* Pods_LKEasyUI_ExampleTests.framework */,
+				B9E64F0E6371808E3EF579C4 /* Pods_LKEasyUI_ExampleUITests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -146,8 +207,20 @@
 				6003F59C195388D20070C39A /* EASYAppDelegate.h */,
 				6003F59D195388D20070C39A /* EASYAppDelegate.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
+				0433E634258998D7009B531E /* EasyTabBarController.h */,
+				0433E635258998D7009B531E /* EasyTabBarController.m */,
 				6003F5A5195388D20070C39A /* EASYViewController.h */,
 				6003F5A6195388D20070C39A /* EASYViewController.m */,
+				0433E62E25899827009B531E /* LeeLoginViewController.h */,
+				0433E62F25899827009B531E /* LeeLoginViewController.m */,
+				045CD0B12589A70900410DD0 /* LoginNetworkService.h */,
+				045CD0B22589A70900410DD0 /* LoginNetworkService.m */,
+				045CD0B72589AECF00410DD0 /* LoginViewModel.h */,
+				045CD0B82589AECF00410DD0 /* LoginViewModel.m */,
+				0433E5C0258759DE009B531E /* LoginView.h */,
+				0433E5C1258759DE009B531E /* LoginView.m */,
+				0433E5CF25886319009B531E /* LoginParamVerify.h */,
+				0433E5D025886319009B531E /* LoginParamVerify.m */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
@@ -167,25 +240,6 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		6003F5B5195388D20070C39A /* Tests */ = {
-			isa = PBXGroup;
-			children = (
-				6003F5BB195388D20070C39A /* Tests.m */,
-				6003F5B6195388D20070C39A /* Supporting Files */,
-			);
-			path = Tests;
-			sourceTree = "<group>";
-		};
-		6003F5B6195388D20070C39A /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				6003F5B7195388D20070C39A /* Tests-Info.plist */,
-				6003F5B8195388D20070C39A /* InfoPlist.strings */,
-				606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
 		60FF7A9C1954A5C5007DD14C /* Podspec Metadata */ = {
 			isa = PBXGroup;
 			children = (
@@ -199,6 +253,44 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		0433E5F22588AC64009B531E /* LKEasyUI_ExampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0433E5FA2588AC64009B531E /* Build configuration list for PBXNativeTarget "LKEasyUI_ExampleTests" */;
+			buildPhases = (
+				B3154506568F4C41F29BBA57 /* [CP] Check Pods Manifest.lock */,
+				0433E5EF2588AC64009B531E /* Sources */,
+				0433E5F02588AC64009B531E /* Frameworks */,
+				0433E5F12588AC64009B531E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0433E5F92588AC64009B531E /* PBXTargetDependency */,
+			);
+			name = LKEasyUI_ExampleTests;
+			productName = LKEasyUI_ExampleTests;
+			productReference = 0433E5F32588AC64009B531E /* LKEasyUI_ExampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0433E6022588AC71009B531E /* LKEasyUI_ExampleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0433E60A2588AC71009B531E /* Build configuration list for PBXNativeTarget "LKEasyUI_ExampleUITests" */;
+			buildPhases = (
+				16603964CE8B0C6D1968296E /* [CP] Check Pods Manifest.lock */,
+				0433E5FF2588AC71009B531E /* Sources */,
+				0433E6002588AC71009B531E /* Frameworks */,
+				0433E6012588AC71009B531E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0433E6092588AC71009B531E /* PBXTargetDependency */,
+			);
+			name = LKEasyUI_ExampleUITests;
+			productName = LKEasyUI_ExampleUITests;
+			productReference = 0433E6032588AC71009B531E /* LKEasyUI_ExampleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 		6003F589195388D20070C39A /* LKEasyUI_Example */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6003F5BF195388D20070C39A /* Build configuration list for PBXNativeTarget "LKEasyUI_Example" */;
@@ -218,25 +310,6 @@
 			productReference = 6003F58A195388D20070C39A /* LKEasyUI_Example.app */;
 			productType = "com.apple.product-type.application";
 		};
-		6003F5AD195388D20070C39A /* LKEasyUI_Tests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 6003F5C2195388D20070C39A /* Build configuration list for PBXNativeTarget "LKEasyUI_Tests" */;
-			buildPhases = (
-				12CA020943AD58340643E919 /* [CP] Check Pods Manifest.lock */,
-				6003F5AA195388D20070C39A /* Sources */,
-				6003F5AB195388D20070C39A /* Frameworks */,
-				6003F5AC195388D20070C39A /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				6003F5B4195388D20070C39A /* PBXTargetDependency */,
-			);
-			name = LKEasyUI_Tests;
-			productName = LKEasyUITests;
-			productReference = 6003F5AE195388D20070C39A /* LKEasyUI_Tests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -247,7 +320,14 @@
 				LastUpgradeCheck = 1220;
 				ORGANIZATIONNAME = "lice_home@163.com";
 				TargetAttributes = {
-					6003F5AD195388D20070C39A = {
+					0433E5F22588AC64009B531E = {
+						CreatedOnToolsVersion = 12.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 6003F589195388D20070C39A;
+					};
+					0433E6022588AC71009B531E = {
+						CreatedOnToolsVersion = 12.2;
+						ProvisioningStyle = Automatic;
 						TestTargetID = 6003F589195388D20070C39A;
 					};
 				};
@@ -267,35 +347,42 @@
 			projectRoot = "";
 			targets = (
 				6003F589195388D20070C39A /* LKEasyUI_Example */,
-				6003F5AD195388D20070C39A /* LKEasyUI_Tests */,
+				0433E5F22588AC64009B531E /* LKEasyUI_ExampleTests */,
+				0433E6022588AC71009B531E /* LKEasyUI_ExampleUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		0433E5F12588AC64009B531E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0433E6012588AC71009B531E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		6003F588195388D20070C39A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
-				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
+				0433E64B25899AD0009B531E /* LaunchScreen.storyboard in Resources */,
+				0433E64725899AA7009B531E /* Main.storyboard in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		6003F5AC195388D20070C39A /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		12CA020943AD58340643E919 /* [CP] Check Pods Manifest.lock */ = {
+		16603964CE8B0C6D1968296E /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -310,7 +397,29 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-LKEasyUI_Tests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-LKEasyUI_ExampleUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B3154506568F4C41F29BBA57 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LKEasyUI_ExampleTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -346,15 +455,27 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-LKEasyUI_Example/Pods-LKEasyUI_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
 				"${BUILT_PRODUCTS_DIR}/DZNEmptyDataSet/DZNEmptyDataSet.framework",
 				"${BUILT_PRODUCTS_DIR}/LKEasyUI/LKEasyUI.framework",
+				"${BUILT_PRODUCTS_DIR}/LKNetwork/LKNetwork.framework",
+				"${BUILT_PRODUCTS_DIR}/MJExtension/MJExtension.framework",
 				"${BUILT_PRODUCTS_DIR}/MJRefresh/MJRefresh.framework",
+				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
+				"${BUILT_PRODUCTS_DIR}/ReactiveObjC/ReactiveObjC.framework",
+				"${BUILT_PRODUCTS_DIR}/YTKNetwork/YTKNetwork.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DZNEmptyDataSet.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LKEasyUI.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LKNetwork.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJExtension.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJRefresh.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ReactiveObjC.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YTKNetwork.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -364,31 +485,50 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		0433E5EF2588AC64009B531E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0433E5F62588AC64009B531E /* LKEasyUI_ExampleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0433E5FF2588AC71009B531E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0433E6062588AC71009B531E /* LKEasyUI_ExampleUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		6003F586195388D20070C39A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				6003F59E195388D20070C39A /* EASYAppDelegate.m in Sources */,
+				0433E63025899827009B531E /* LeeLoginViewController.m in Sources */,
 				6003F5A7195388D20070C39A /* EASYViewController.m in Sources */,
+				0433E636258998D7009B531E /* EasyTabBarController.m in Sources */,
+				045CD0B32589A70900410DD0 /* LoginNetworkService.m in Sources */,
+				0433E5C2258759DE009B531E /* LoginView.m in Sources */,
+				0433E5D125886319009B531E /* LoginParamVerify.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		6003F5AA195388D20070C39A /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				6003F5BC195388D20070C39A /* Tests.m in Sources */,
+				045CD0B92589AECF00410DD0 /* LoginViewModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		6003F5B4195388D20070C39A /* PBXTargetDependency */ = {
+		0433E5F92588AC64009B531E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 6003F589195388D20070C39A /* LKEasyUI_Example */;
-			targetProxy = 6003F5B3195388D20070C39A /* PBXContainerItemProxy */;
+			targetProxy = 0433E5F82588AC64009B531E /* PBXContainerItemProxy */;
+		};
+		0433E6092588AC71009B531E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6003F589195388D20070C39A /* LKEasyUI_Example */;
+			targetProxy = 0433E6082588AC71009B531E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -397,14 +537,6 @@
 			isa = PBXVariantGroup;
 			children = (
 				6003F597195388D20070C39A /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		6003F5B8195388D20070C39A /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				6003F5B9195388D20070C39A /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -420,6 +552,110 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		0433E5FB2588AC64009B531E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F98170BCB9F71F60E4639080 /* Pods-LKEasyUI_ExampleTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = LKEasyUI_ExampleTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "net.luculent.nmg.ybsdzt.LKEasyUI-ExampleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LKEasyUI_Example.app/LKEasyUI_Example";
+			};
+			name = Debug;
+		};
+		0433E5FC2588AC64009B531E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DB84FD681647662FC9AF7F40 /* Pods-LKEasyUI_ExampleTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = LKEasyUI_ExampleTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "net.luculent.nmg.ybsdzt.LKEasyUI-ExampleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LKEasyUI_Example.app/LKEasyUI_Example";
+			};
+			name = Release;
+		};
+		0433E60B2588AC71009B531E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8442C36D9CE335E50C7BACF8 /* Pods-LKEasyUI_ExampleUITests.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = LKEasyUI_ExampleUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "net.luculent.nmg.ybsdzt.LKEasyUI-ExampleUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LKEasyUI_Example;
+			};
+			name = Debug;
+		};
+		0433E60C2588AC71009B531E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8239D765F5053CA1F6C01814 /* Pods-LKEasyUI_ExampleUITests.release.xcconfig */;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = LKEasyUI_ExampleUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "net.luculent.nmg.ybsdzt.LKEasyUI-ExampleUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LKEasyUI_Example;
+			};
+			name = Release;
+		};
 		6003F5BD195388D20070C39A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -468,7 +704,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -516,7 +752,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -555,55 +791,27 @@
 			};
 			name = Release;
 		};
-		6003F5C3195388D20070C39A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2297E8F3945C8559963F00C1 /* Pods-LKEasyUI_Tests.debug.xcconfig */;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Tests/Tests-Prefix.pch";
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = "Tests/Tests-Info.plist";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LKEasyUI_Example.app/LKEasyUI_Example";
-				WRAPPER_EXTENSION = xctest;
-			};
-			name = Debug;
-		};
-		6003F5C4195388D20070C39A /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D2F0B86BA042AF49829BE1FA /* Pods-LKEasyUI_Tests.release.xcconfig */;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Tests/Tests-Prefix.pch";
-				INFOPLIST_FILE = "Tests/Tests-Info.plist";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LKEasyUI_Example.app/LKEasyUI_Example";
-				WRAPPER_EXTENSION = xctest;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		0433E5FA2588AC64009B531E /* Build configuration list for PBXNativeTarget "LKEasyUI_ExampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0433E5FB2588AC64009B531E /* Debug */,
+				0433E5FC2588AC64009B531E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0433E60A2588AC71009B531E /* Build configuration list for PBXNativeTarget "LKEasyUI_ExampleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0433E60B2588AC71009B531E /* Debug */,
+				0433E60C2588AC71009B531E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		6003F585195388D10070C39A /* Build configuration list for PBXProject "LKEasyUI" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -618,15 +826,6 @@
 			buildConfigurations = (
 				6003F5C0195388D20070C39A /* Debug */,
 				6003F5C1195388D20070C39A /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		6003F5C2195388D20070C39A /* Build configuration list for PBXNativeTarget "LKEasyUI_Tests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				6003F5C3195388D20070C39A /* Debug */,
-				6003F5C4195388D20070C39A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

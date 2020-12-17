@@ -4,8 +4,15 @@ platform :ios, '9.0'
 
 target 'LKEasyUI_Example' do
   pod 'LKEasyUI', :path => '../'
+  pod 'LKNetwork'
+  pod 'Masonry', '~> 1.1.0’
+  pod 'ReactiveObjC'
+  target 'LKEasyUI_ExampleTests' do
+    inherit! :search_paths
 
-  target 'LKEasyUI_Tests' do
+    
+  end
+  target 'LKEasyUI_ExampleUITests' do
     inherit! :search_paths
 
     
