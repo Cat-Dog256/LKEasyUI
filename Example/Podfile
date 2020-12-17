@@ -1,10 +1,8 @@
 use_frameworks!
-
 platform :ios, '9.0'
-
 target 'LKEasyUI_Example' do
   pod 'LKEasyUI', :path => '../'
-  pod 'LKNetwork'
+  pod 'LKNetwork',:path => '../../LKNetwork/'
   pod 'Masonry', '~> 1.1.0’
   pod 'ReactiveObjC'
   target 'LKEasyUI_ExampleTests' do

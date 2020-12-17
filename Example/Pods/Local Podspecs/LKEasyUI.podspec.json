@@ -1,6 +1,6 @@
 {
   "name": "LKEasyUI",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "summary": "常用UI控件的封装与整理 LKEasyUI.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/Cat-Dog256/LKEasyUI",
@@ -13,12 +13,13 @@
   },
   "source": {
     "git": "https://github.com/Cat-Dog256/LKEasyUI.git",
-    "tag": "0.1.0"
+    "tag": "0.1.1"
   },
   "platforms": {
     "ios": "9.0"
   },
   "source_files": "LKEasyUI/Classes/**/*",
+  "public_header_files": "Pod/Classes/**/*.h",
   "dependencies": {
     "MJRefresh": [
 

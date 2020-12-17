@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'LKEasyUI'
-  s.version          = '0.1.0'
+  s.version          = '0.1.2'
   s.summary          = '常用UI控件的封装与整理 LKEasyUI.'
 
 # This description is used to generate tags and improve search results.
@@ -36,7 +36,7 @@ TODO: Add long description of the pod here.
   #   'LKEasyUI' => ['LKEasyUI/Assets/*.png']
   # }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
+  s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   s.dependency 'MJRefresh'
   s.dependency 'DZNEmptyDataSet'
